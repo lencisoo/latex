@@ -1,6 +1,6 @@
 \documentclass[a4paper,onecolumn,10pt]{article}
 \usepackage[utf8]{inputenc} % Para las tildes
-\usepackage[spanish, es-tabla]{babel}
+\usepackage[english]{babel}
 \usepackage{graphicx}
 \usepackage{booktabs} % Better horizontal rules in tables
 \usepackage{float}
@@ -8,6 +8,7 @@
 \usepackage{palatino}
 \usepackage{array} 
 \usepackage{caption}
+\usepackage{blindtext}
 
 
 %opening
@@ -24,9 +25,10 @@
 		\maketitle
 		\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
 		\begin{abstract}
-			El número reproductivo básico $R_0$ y el número reproductivo efectivo $R_t$ son métricas que permiten modelar el comportamiento de una epidemia en los casos en que la transmisión depende del contacto entre individuos. Desde la descripción del primer caso de infección por COVID-19 en China el 31 de Diciembre de 2019, la rápida extensión de la enfermedad hace que la compresión del concepto de número reproductivo, adquiera una enorme importancia. Se presentan aspectos generales sobre el número reproductivo básico y efectivo y se muestran ejemplos de diferentes métodos para su estimación. \\
+			\blindtext \\
 			\\
-			\textbf{Palabras clave}: COVID-19, Número reproductivo básico, Número reproductivo efectivo, $R_0$, $R_t$, máxima entropía. 
+			\textbf{Palabras clave}: 
+			\blindtext. 
 		\end{abstract}
 		\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
 
@@ -57,4 +59,3 @@ On December 31, 2019, the World Health Organization (WHO) office in China was in
 \bibliographystyle{Vancouver}
 
 \end{document}
-
