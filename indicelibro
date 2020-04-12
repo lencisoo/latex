@@ -1,0 +1,54 @@
+\documentclass[a4paper,onecolumn,10pt]{article}
+\usepackage[utf8]{inputenc} % Para las tildes
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{palatino}
+\usepackage{array} 
+\usepackage{caption}
+
+
+%opening
+\title{Hematological aspects of COVID-19 infection }
+
+\author{
+	Leonardo Enciso$^{1}$, Humberto Martinez$^{1}$,\\ 
+	\small{$^{1}$ Instituto Nacional de Cancerología-Bogotá, Colombia} \\
+	\small{contacto: lenciso@cancer.gov.co}
+}
+
+\begin{document}
+
+		\maketitle
+		\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+		\begin{abstract}
+			Lorem ipsum Lorem Ipsum. \\
+			\\
+			\textbf{Palabras clave}: Lorem ipsum Lorem ipsum 
+		\end{abstract}
+		\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+
+\tableofcontents 
+
+\section{Introduction}
+On December 31, 2019, the World Health Organization (WHO) office in China was informed of cases of pneumonia of unknown etiology in Wuhan City, Hubei Province \cite{WHO_2020}. Subsequently, using new generation sequencing methods, a new Coronavirus designated 2019-nCOV was identified as the etiologic agent. Most patients developed a self-limiting fever picture, but a percentage developed dyspnea associated with the appearance of pulmonary infiltrates and hypoxemia, which in some cases became severe and led to the development of acute respiratory failure and the need for mechanical ventilatory support (SARS-CoV2) \cite{Lu_2020}. The evolution of the infection and the verification of the possibility of person-to-person transmission; with affectation of the health personnel in charge of patients affected by the virus and the development of infections in complete family groups, added to a rapid multiplication of the number of cases in China and the subsequent extension to other countries, led to the March 11 2020 WHO declares COVID 19 infection as a pandemic \cite{WHO_2020_2}. At the time the WHO declared COVID 19 infection as a pandemic, 118,000 cases had been reported in 114 countries. By April 04, 2020, two weeks after this declaration, the number of infected exceeded one million cases and the number of lives lost was more than one hundre thousand. Apart for the respiratory disfunction, patients with COVID-19 infection develop hematological disfunction with hyperferritinemia, coagulopaty and thrombosis been the more frequent. In this review we summarize the hematological manifestations of COVID-19 infection and provide topics in the treatment of hematological patients during pandemics.  
+
+\section{Aspectos virológicos generales}
+
+\section{Alteraciones de la coagulación en la infección por COVID-19}
+
+\section{Neoplasias hematológicas y COVID-19: Leucemias agudas y linfomas de alto grado}
+
+\section{Neoplasias hematológicas y COVID-19: Mieloma múltiple, neoplasias mieloproliferativas}
+
+\section{Trasplante autólogo y alogénico y COVID-19}
+
+\section{Citopenias autoinmunes y COVID-19}
+
+\section{Medicina transfusional y COVID-19}
+
+\section{Telehematología}
+
+\section{Protección del personal de salud de servicios hematológicos}
