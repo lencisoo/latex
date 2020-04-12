@@ -16,7 +16,7 @@
 \author{
 	Leonardo Enciso$^{1}$, Humberto Martinez$^{1}$,\\ 
 	\small{$^{1}$ Instituto Nacional de Cancerología-Bogotá, Colombia} \\
-	\small{contacto: lenciso@cancer.gov.co}
+	\small{contact: lenciso@cancer.gov.co}
 }
 
 \begin{document}
@@ -24,16 +24,16 @@
 		\maketitle
 		\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
 		\begin{abstract}
-			Lorem ipsum Lorem Ipsum. \\
+			El número reproductivo básico $R_0$ y el número reproductivo efectivo $R_t$ son métricas que permiten modelar el comportamiento de una epidemia en los casos en que la transmisión depende del contacto entre individuos. Desde la descripción del primer caso de infección por COVID-19 en China el 31 de Diciembre de 2019, la rápida extensión de la enfermedad hace que la compresión del concepto de número reproductivo, adquiera una enorme importancia. Se presentan aspectos generales sobre el número reproductivo básico y efectivo y se muestran ejemplos de diferentes métodos para su estimación. \\
 			\\
-			\textbf{Palabras clave}: Lorem ipsum Lorem ipsum 
+			\textbf{Palabras clave}: COVID-19, Número reproductivo básico, Número reproductivo efectivo, $R_0$, $R_t$, máxima entropía. 
 		\end{abstract}
 		\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
 
 \tableofcontents 
 
 \section{Introduction}
-On December 31, 2019, the World Health Organization (WHO) office in China was informed of cases of pneumonia of unknown etiology in Wuhan City, Hubei Province \cite{WHO_2020}. Subsequently, using new generation sequencing methods, a new Coronavirus designated 2019-nCOV was identified as the etiologic agent. Most patients developed a self-limiting disease, but a percentage progress with the appearance of pulmonary infiltrates, hypoxemia and acute respiratory failure (SARS-CoV2) \cite{Lu_2020}. The evolution of the infection and the verification of the possibility of person-to-person transmission added to a rapid multiplication of the number of cases in China and the subsequent extension to other countries, led to the March 11 2020 WHO declares COVID 19 infection as a pandemic \cite{WHO_2020_2}. By April 2020, the number of infected exceeded one million and the number of deaths was more than one hundred thousand. Apart of the respiratory failure, patients with COVID-19 infection develop hematological disfunction with hyperferritinemia, coagulopaty and thrombosis been the more frequent. In this review we summarize the hematological manifestations of COVID-19 infection and provide topics in the treatment of hematological patients during pandemics.  
+On December 31, 2019, the World Health Organization (WHO) office in China was informed of cases of pneumonia of unknown etiology in Wuhan City, Hubei Province \cite{WHO_2020}. Subsequently, using new generation sequencing methods, a new Coronavirus designated 2019-nCOV was identified as the etiologic agent. Most patients developed a self-limiting disease, but a percentage progress with the appearance of pulmonary infiltrates, hypoxemia and acute respiratory failure (SARS-CoV2) \cite{Lu_2020}. The evolution of the infection, led to the declaration of COVID 19 infection as a pandemic by the WHO in March 11 2020\cite{WHO_2020_2}. Apart of the respiratory failure, patients with COVID-19 infection develop hematological disfunction with hyperferritinemia, coagulopaty and thrombosis been the more frequent. In this review we summarize the hematological manifestations of COVID-19 infection and provide topics in the treatment of hematological patients during pandemics.  
 
 \section{Virological aspects}
 
@@ -52,3 +52,9 @@ On December 31, 2019, the World Health Organization (WHO) office in China was in
 \section{Telemedicine and telehematology}
 
 \section{Protection of health workers in hematology wards during pandemics}
+
+\bibliography{corhemato}
+\bibliographystyle{Vancouver}
+
+\end{document}
+
