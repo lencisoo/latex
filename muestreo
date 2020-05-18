@@ -1,0 +1,182 @@
+\documentclass[a4paper,onecolumn,12pt]{article}
+\usepackage[utf8]{inputenc} % Para las tildes
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{palatino}
+\usepackage{array} 
+\usepackage{caption}
+\usepackage{blindtext}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+%opening
+\title{Embarazo adolescente en el Chocó: propuesta metodológica para una encuesta}
+\author{Leonardo José Enciso Olivera}
+
+\begin{document}
+
+\maketitle
+
+%\begin{abstract}
+
+%\end{abstract}
+
+\section{Conceptos generales}
+De acuerdo con la Organización Panamericana de la Salud (OPS), aunque la tasa de fecundidad general (definida como el número de hijos por mujer), ha disminuido en la región de las americas en las últimas tres décadas, las tasas de fecundidad en adolescentes siguen siendo muy elevadas, superadas solamente por las tasas reportadas por los paises del África subsahariana, como la República Democrática del Congo y Camerún \cite{OMS2016}. La OPS menciona además que América Latina es la región del mundo con la disminución mas lenta en la tasa de fecundidad en adolescentes y la única región en donde existe una tendencia ascendente en el número de embarazos en niñas menores de 15 años. La Organización Mundial de la Salud, define la adolescencia como el periodo de desarrollo humano que se presenta entre los 10 y los 19 años. Esta etapa esta caracterizada por un conjunto de cambios corporales, emocionales y sociales, que son la preparación para el paso a la vida adulta, con nuevas responsabilidades, retos y posibilidades de desarrollo. \cite{Royo2018}. 
+
+\subsection{Perspectiva regional}
+El informe de la Organización Panamericana de la Salud \textit{Acelerar el progreso hacia la reducción del embarazo en la adolescencia en América Latina y el Caribe}, publicado en el año 2018, fue el producto de una reunión de consulta técnica realizada en agosto de 2016, con el objetivo de evaluar la situación y lograr un consenso sobre los enfoques estratégicos y las acciones prioritadias para ayudar a reducir los embarazos en las adolescentes. En esta reunión se discutieron diferentes temas sobre el embarazo en las adolescentes tanto para el grupo de 10 a 14 como el de 15 a 19 años. Los aspectos que se abordaron fueron que se sabia del embarazo en la adolescencia en la región y cuales eran sus determinantes y su repecursión; qué esfuerzos se habían hecho hasta ese momento y cómo se podía acelerar el progreso \cite{OMS2016}. El primer aspecto a resaltar de este informe es el concepto de que el embarazo en la adolescencia es un problema de salud pública y de inequidad. Las poblaciones mas vulnerables a nivel social, son los grupos en donde las tasas de este fenómeno son mayores. Las adolescentes que pertenecen o residen en zonas de mayor riesgo social y con menores recursos, sufren de diversas formas de violencia de género dentro de las cuales se encuentra la falta de educación sexual integral, acceso a servicios de salud sexual y reproductiva y uniones o matrimonios precoces que se relacionan con el incremento del número de embarazos en este grupo. El embarazo en una mujer adolescente tiene profundas repercusiones en su trayectoría de vida. Primero, la primera causa de mortalidad en adolescentes de 15 a 19 años a nivel mundial, son las complicaciones del embarazo y el parto. Esto puede ser aun mayor en el grupo de niñas entre 10 y 14 años. Adicionalmente, muchas de las adolescentes embarazadas se ven obligadas a abandonar la escuela lo cual reduce a largo plazo sus oportunidades laborales y educativas y es un factor que contribuye al mantenimiento de los ciclos intergeneracionales de pobreza y marginación. Otro aspecto es que los embarazos no deseados pueden concluir en aborto y ante la existencia de limitaciones legales para el acceso a un servicio de interrupción voluntaria del embarazo seguro y de calidad. Esto se traduce en que de los mas de 5 millones de abortos que se practican en adolescentes a nivel mundial, menos de la mitad pueda ser considerado seguro. 
+\subsubsection{Cifras regionales}
+La región de América Latina y el Caribe tiene la segunda tasa más alta de embarazo en la adolescencia a nivel mundial de 66.5 nacimientos por cada 1000 adolescentes de 15 a 19 años en el periodo 2010 a 2015 \cite{OMS2016}. Los datos reportados en el Anuario Estadístico del 2019 muestran que aunque la tendencia es decreciente, la velocidad de reducción sigue siendo baja. De acuerdo con este informe, la tasa de fecundidad general es de 2 hijos por mujer para la región de América Latina y el Caribe. Esto es consistente con las observaciones previas de una reducción de la tasa de fecundidad general en la región. Sin embargo, la tasa de fecundidad en la adolescencia es de 61.3 nacidos vivos por cada 1000 mujeres de 15 a 19 años, la cual es inferior a la reportada en el 2015 pero alta por encima del objetivo de la agenda 2030 del desarrollo sostenible que la situa en 46 nacidos vivos por cada 1000 mujeres\cite{LatinAmerica2020}. El informe de la OPS muestra además que existen diferencias en el porcentaje de adolescentes que han iniciado su ciclo reproductivo cuando se analizan de acuerdo con el nivel educativo y por quintil de riqueza, reflejando como las mujeres que pertenecen a los segmentos mas pobres y que alcanzan un menor nivel educativo son las que tienen los mayores porcentajes de inicio temprano de la vida sexual y las mayores tasas de embarazos. 
+
+\subsection{Perspectiva nacional}
+Existen diferentes métricas descritas para evaluar el comportamiento de la fecundidad durante la adolescencia. Los tres principales indicadores respecto a este fenómeno son:
+
+\begin{itemize}
+	\item La tasa específica de fecundidad en adolescentes 
+	\item El porcentaje de adolescentes madres o embarazadas por primera vez 
+	\item El porcentaje de adolescentes alguna vez embarazadas
+\end{itemize}
+
+La Tasa Específica de Fecundidad en adolescentes corresponde al número de nacidos vivos por 1000 mujeres adolescentes en un periodo de tiempo. La mayoría de los estudios reporta esta tasa para la población de 15 a 19 años, aunque la tasa específica de fecundidad en la población de 10 a 14 años tambien es un indicador que permite entender la magnitud del fenómeno aunque la información respecto a esta población es, en general, mas limitada, con el agravante de que en todos los paises de la región sostener relaciones sexuales con una menor de 14 años es considerado un delito. Esta métrica es la que sirve para realizar comparaciones entre paises en la mayoría de los estudios y fue definida como uno de los indicadores del quinto objetivo de la Agenda del Desarrollo Sostenible 2030 en el componente de Acceso Universal a los Derechos y salud reproductiva, teniendo como meta para el 2030 una Tasa Específica de Fecundidad de 46  nacidos vivos por cada 1000 adolescentes de 15 a 19 años. Cabe resaltar que la población de 10 a 14 años no está considerada en este objetivo. \
+
+La segunda medición es el porcentaje de adolescentes madres o embarazadas por primera vez. Esta métrica es un indicador de prevalencia que considera tanto a las mujeres embarazadas como las que ya son madres al momento de la medición. De acuerdo con la Encuesta Nacional de Demografía y Salud este porcentaje es de 17.4\%, con diferencias entre los niveles educativos y los quíntiles de riqueza, siendo mayor en el grupo con menor educación y perteneciente al quintil mas bajo.\ 
+
+La última de estas métricas es el porcentaje de adolescentes alguna vez embarazadas. A diferencia de los otros indicadores que se basan en los embarazos que terminaron con un nacido vivo, este porcentaje incluye a las adolescentes que son madres, las que se encuentran embarazadas por primera vez y todos los embarazos que no terminaron en un nacido vivo (esto incluye las pérdidas, los embarazos extrauterinos, las muertes fetales, los nacidos muertos y los casos de interrupción voluntaria del embarazo). La medición de este indicador es compleja por la penalización que existe del aborto y porque existen situaciones biológicas en donde un embarazo puede terminar en aborto espontáneo sin que se requiera ninguna intervención médica.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{TEF}
+	\caption{Evolución de la TEF en la adolescencia en Colombia}
+	\label{fig:casos1}
+\end{figure}
+
+La principal fuente de información respecto al embarazo en adolescentes en Colombia es la Encuesta Nacional de Demografía y Salud del año 2015, la cual es producto del esfuerzo intersectorial entre el Ministerio de Salud y Protección Social y PROFAMILIA. Además de esta encuesta, el informe \textit{Determinantes del embarazo en adolescentes en Colombia: explicando las causas de las causas}, publicado por PROFAMILIA en el año 2018, realiza un análisis en profundidad\cite{Royo2018} de los resultados de la ENDS, planteando como objetivo realizar un análisis de los determinantes sociales con mayor contribución en la ocurrencia del embarazo en la adolescencia e identificar aquellos que aumentan el nivel de vulnerabilidad al riesgo de un embarazo, maternidad o parternidad en la adolescencia. Dentro de sus objetivos específicos este estudio planteó analizar el embarazo adolescente y el embarazo temprano (en menores de 15 años). Una de las conclusiones principales de este estudio es que el embarazo, la maternidad y la paternidad en la adolescencia se explican en gran parte por la falta de oportunidades y resaltan dentro de esta el ser pobre. A esto se suma la deserción escolar y la falta de información sobre sexualidad desde edades tempranas. Estas conclusiones tienen una gran relevancia para el planteamiento de estrategias. En particular, resaltan la necesidad de acciones multinivel que van mucho mas allá de la información sobre anticoncepción o su mayor disponibilidad. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{pam}
+	\caption{Porcentaje de adolescentes madres o embarazadas}
+	\label{fig:casos2}
+\end{figure}
+
+\subsection{Datos sobre el departamento del Chocó}
+El departamento del Chocó está constituido por 30 municipios. La proyección de población para el año 2020 realizada por el DANE es de 544.764 habitantes. La mayoría de la población se concentra en el municipio de Quibdó, el cual se proyecta tendra para el año 2020 130.285 habitantes lo cual corresponde al 24\% del total. La población proyectada para cada municipio se presenta en la figura 3. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{poblacion2020}
+	\caption{Proyección poblacional}
+	\label{fig:casos3}
+\end{figure}
+
+La población proyectada de adolescentes por grupo de edad, es similar a lo esperado para la población en general y se presenta en la figura 4. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{adolescentes}
+	\caption{Proyección poblacional- Adolescentes}
+	\label{fig:casos4}
+\end{figure}
+
+Solamente Quibdó es considerado como una zona urbana. El resto de los municipios son considerados zonas rurales. La tabla 1 presenta el promedio de habitantes por municipio para diferentes grupos de edad y zonas de residencia. 
+
+\begin{table}[H]
+	\centering
+	\caption{Promedios de habitantes}
+	\begin{tabular}{rrrrrr}
+		\hline
+		& General & 10 a 14 & 15 a 19 & Cabecera & Rural \\ 
+		\hline
+		 & 35146 & 981 & 896 & 8103 & 10055 \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+
+La evolución de las Tasas Específicas de Fecundidad para el departamento del Chocó comparadas con las tasas nacionales se presentan en la figura 3. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Slide4}
+	\caption{TEF comparada}
+	\label{fig:casos5}
+\end{figure}
+
+Las Tasas Específicas de Fecundidad en adolescentes en el Chocó han sido inferiores a las reportadas a nivel nacional. Con base en la consideración presentada en la sección anterior, donde se encuentra que la pobreza es un determinante del embarazo adolescente, se plantea que puede existir subestimación del fenómeno en esta región. \\
+
+Se plantea entonces la siguiente pregunta de investigación, que pretende responderse mediante la realización de una encuesta y para la que se diseña el procedimiento de muestreo que se presenta en este documento: \\
+ 
+\textit{¿Cúal es el porcentaje de adolescentes alguna vez embarazadas en los municipios intermedios y rurales del Chocó?}. \\ 
+
+Este indicar no ha sido estimado con precisión en las encuestas anteriores y refleja de una manera muy precisa la magnitud del problema, al considerar no solamente los nacidos vivos sino todos los casos en los que se ha presentado un embarazo. 
+
+\section{Estratificación de los municipios}
+
+La clasificación de los municipios en diferentes estratos es necesaria para el procedimiento de muestreo. Los ejercicios de estraficación municipal existentes han utilizado variables como la funcionalidad urbano-regional, la dinámica económica, la calidad del vida, el ambiente, la seguridad y la institucionalidad. A través de un procedimiento de análisis de componentes principales, el Departamento Nacional de Planeación clasificó todos los municipios del país en diferentes grupos, identificados desde A hasta G. Los municipios clasificados como A y B se consideraron con un entorno de desarrollo robusto. Los municipios clasificados como C , D y E como entornos de desarrollo intermedio y finalmente, aquellos clasificados como F y G como entornos de desarrollo temprano. Inicialmente, se planteó que los estratos estuvieran representados por los municipios en cada una de las tipologías. El resultado de esta clasificación se presenta en la figura 6. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{tipologia}
+	\caption{Tipologías municipales}
+	\label{fig:casos6}
+\end{figure}
+
+Algunos datos relevantes de este primer análisis es que no existe ningún municipio en el Chocó clasificado como A o B y solamente Quibdó fue clasificado como tipo C. Se obtuvo información referente a variables como el Índice de Pobreza Multidimensional (IPM), el porcentaje de la población con necesidad básicas insatisfechas (NBI) e información referente a la cobertura en educación. Se seleccionaron estas variables por la descripción previa de que los principales determinantes del embarazo adolescente son la pobreza y la deserción escolar. Se construye entonces una matriz de correlación entre las variables para definir por cuales criterios era posible clasificar los grupos. Los datos se presentan en la tabla 
+
+\begin{table}[ht]
+	\centering
+	\caption{Matríz de correlación entre variables}
+	\begin{tabular}{rrrrr}
+		\hline
+		& NBI total & Miseria & IPM & Cob.Educación \\ 
+		\hline
+		NBI total & 1.00 & 0.59 & 0.46 & -0.14 \\ 
+		Miseria & 0.59 & 1.00 & 0.80 & -0.52 \\ 
+		IPM & 0.46 & 0.80 & 1.00 & -0.79 \\ 
+		Cob.Educación & -0.14 & -0.52 & -0.79 & 1.00 \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+Se encontró una fuerte correlación indirecta entre el IPM y la cobertura en educación (-0.79; p-valor=<0.0001) y una correlación positiva con la población en miseria (0.8; p-valor=<0.0001). De igual forma, se encontró una correlación positiva entre el IPM y la población de personas en NBI (0.46; p-valor=0.009). Por la alta correlación existente entre el NBI y la cobertura en educación, se consideró que era posible incluir una sola de las variables como criterio de clasificación, seleccionando el NBI. Los municipios fueron entonces reclasificados de acuerdo a los cuartiles del IPM y del NBI. Para el caso del NBI el valor representa el porcentaje de la población en necesidades básicas insatisfechas y el IPM también se encontraba expresado como el porcentaje de intensidad de pobreza IPM, cuyo promedio para el país es de 44\%. Se clasificaron los municipios por los dos criterios en uno de cuatro niveles definidos por los cuartiles como bajo, medio, moderado o alto, siendo el nivel bajo el nivel mas favorable donde la proporción de poblacion en NBI era la menor y el porcentaje de pobreza IPM era más bajo. En los casos en que se presentaron desacuerdos entre los dos esquemas de clasificación, el municipio fue asignado a la categoría mas desfavorable. Esta nueva variable fue designada como el nivel de necesidades, con rango bajo, medio, moderado o alto, reflejando que tantas necesidades tiene la población de cada municipio basado en sus indices de pobreza y de necesidades insatisfechas. 
+
+Los municipios fueron asignados a cada categoría de necesidades para poder realizar el procedimiento aleatorio de selección. La figura 8 presenta los nombres de los municipios que fueron asignados a cada categoría. 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+	\begin{tabular}{@{}llll@{}}
+		\toprule
+		\multicolumn{4}{c}{}                                        \\ \midrule
+		Bajo                                                                                           & Medio                                                                                                                                            & Moderado                                                                                                                       & Alto                                                                                                                                                                                                \\ \midrule
+		\begin{tabular}[c]{@{}l@{}}Acandí\\ Bahia solano \\ El Carmen de Atrato \\ Atrato\end{tabular} & \begin{tabular}[c]{@{}l@{}}Cértegui\\ El Cantón de San Pablo \\ Unión panamericana \\ Nóvita\\ San José del Palmar\\ Tadó \\ Unguía\end{tabular} & \begin{tabular}[c]{@{}l@{}}Quibdó \\ Condoto \\ Sipí \\ Río Iró \\ Río Quito \\ Juradó \\ Medio San Juan \\ Nuquí\end{tabular} & \begin{tabular}[c]{@{}l@{}}Bagadó \\ Carmen del Darién \\ Istmina \\ Medio Atrato \\ Medio Baudó \\ Alto Baudó \\ Bajo Baudó \\ Bojayá \\ Riosucio \\ El Litoral del San Juan \\ Lloró\end{tabular} \\ \bottomrule
+	\end{tabular}
+	\caption{Clasificación de los municipios por estratos}
+	\label{tab:my-table}
+\end{table}
+
+\subsection{Selección probabilística de los municipios}
+
+Los municipios fueron asignados al estrato correspondiente a su nivel de necesidades. Dentro de cada estrato, la probabilidad de elección del municipio fue proporcional a su peso, obtenido de dividir el número de habitantes en ese municipio entre el total del estrato. Se verificó en todos los casos que la sumatoria de los pesos fuera igual a uno. Se definió que serían seleccionados dos municipios dentro de cada estrato. Para tal fín, se utilizó una función de muestreo sin reemplazo en el programa estadístico R, a la cual se le adicionó un vector con las probabilidades de elección de cada municipio. Aunque en el esquema de clasificación Quibdó fue clasificado en el grupo de necesidades moderadas, en razón de su peso en el departamento se incluyo de manera forzosa con una probabilidad de 1. De esta forma, fueron seleccionados nueve municipios en total que se presentan en la tabla a continuación. El código para realizar el procedimiento se encuentra disponible en Rpubs \footnote{https://rpubs.com/ljencisoo/municipios}.
+
+\begin{table}[ht]
+	 \centering
+	 \begin{tabular}{rllll}
+	 \hline
+		  & Estrato bajo & Estrato medio & Estrato moderado & Estrato alto \\ 
+	   \hline
+		 1 & Atrato & Tadó & Medio San Juan & Alto Baudó \\ 
+		   2 & El Carmen de Atrato & Unguía & Juradó & Riosucio \\ 
+	   \hline
+	 \end{tabular}
+	 \end{table}
+
+
+\bibliography{muestreo}
+\bibliographystyle{Vancouver}
+\end{document}
